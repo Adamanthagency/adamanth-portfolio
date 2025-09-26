@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small, clean dark theme tweaks */
+:root {
+  --accent-h: 215;
+  --accent-s: 80%;
+  --accent-l: 56%;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.02), transparent 40%);
+  background-color: #0b1020;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* softened focus ring */
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(99,102,241,0.12);
+}
+
+/* small helpers */
+.container {
+  max-width: 80ch;
+}
