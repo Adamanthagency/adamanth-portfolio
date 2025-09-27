@@ -5,11 +5,10 @@ const projects = [
     title: 'Restaurant Website',
     description: 'A responsive restaurant website built with HTML, CSS, and JavaScript. A clean single-page design with menu and navigation.',
     image: '/restaurant.png', // we’ll add this file in Step 3
-    github: 'https://adamanthagency.github.io/restaurant-website/',
-    demo: 'https://github.com/Adamanthagency/restaurant-website'
+    github: 'https://github.com/Adamanthagency/restaurant-website',
+    demo: 'https://adamanthagency.github.io/restaurant-website/'
   }
 ]
-
 export default function Projects() {
   return (
     <section>
