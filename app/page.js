@@ -14,8 +14,11 @@ export default function Home(){
           </div>
         </div>
         <div className="p-6 rounded-2xl bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700">
-          <div className="h-56 rounded-md bg-gray-800 flex items-center justify-center text-gray-500">Hero / Illustration Placeholder</div>
-        </div>
+          <img
+  src="/logo.png"
+  alt="Adamanth Logo"
+  className="w-64 h-auto mx-auto md:mx-0 drop-shadow-lg hover:scale-105 transition-transform duration-300"
+/>
       </div>
 
       <section className="mt-8">
