@@ -5,12 +5,21 @@ export default function ProjectCard({ title, description, image, github, demo })
   return (
     <motion.article
       whileHover={{ scale: 1.03 }}
-      className="bg-gray-800 rounded-2xl shadow-lg overflow-hidden flex flex-col"
+      className="bg-gray-800 rounded-2xl shadow-lg overflow-hidden flex flex-col transition"
     >
-      <img src={image} alt={title} className="h-48 w-full object-cover" />
+      {/* Thumbnail Image */}
+      <img
+        src={image}
+        alt={title}
+        className="h-48 w-full object-cover hover:opacity-90 transition duration-300"
+      />
+
+      {/* Content */}
       <div className="p-4 flex flex-col flex-grow">
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
+        <h3 className="text-xl font-semibold mb-2 text-white">{title}</h3>
         <p className="text-gray-300 flex-grow">{description}</p>
+
+        {/* Links */}
         <div className="mt-4 flex gap-4">
           {github && (
             <a
