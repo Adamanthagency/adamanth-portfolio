@@ -27,13 +27,13 @@ export default function Hero() {
 
           <div className="flex gap-4 justify-center md:justify-start">
             <a
-              href="#projects"
+              href="projects"
               className="px-6 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold shadow-md hover:opacity-90 transition"
             >
               View Projects
             </a>
             <a
-              href="#contact"
+              href="contact"
               className="px-6 py-2 rounded-lg border border-gray-500 text-gray-300 hover:bg-gray-700 transition"
             >
               Contact
