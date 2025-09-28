@@ -15,7 +15,7 @@ const projects = [
     title: 'Titan Turfworks',
     description:
       'A premium landscaping website with animations, testimonials, gallery, and live map integration. Built using pure HTML, CSS, and JS.',
-    image: '/logo.png',
+    image: '/titan-thumb.jpg',
     github: 'https://github.com/Adamanthagency/titan-turfworks',
     demo: 'https://adamanthagency.github.io/titan-turfworks/',
   },
