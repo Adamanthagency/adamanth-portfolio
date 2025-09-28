@@ -3,12 +3,22 @@ import ProjectCard from '@/components/ProjectCard'
 const projects = [
   {
     title: 'Restaurant Website',
-    description: 'A responsive restaurant website built with HTML, CSS, and JavaScript. A clean single-page design with menu and navigation.',
-    image: '/restaurant.png', // we’ll add this file in Step 3
+    description:
+      'A responsive restaurant website built with HTML, CSS, and JavaScript. A clean single-page design with menu and navigation.',
+    image: '/restaurant.png', // thumbnail screenshot saved in /public
     github: 'https://github.com/Adamanthagency/restaurant-website',
     demo: 'https://adamanthagency.github.io/restaurant-website/'
+  },
+  {
+    title: 'Titan Turfworks',
+    description:
+      'A premium landscaping website with animations, testimonials, gallery, and live map integration. Built using pure HTML, CSS, and JS.',
+    image: '/titan-thumb.jpg', // 👈 save screenshot in /public
+    github: 'https://github.com/Adamanthagency/titan-turfworks',
+    demo: 'https://adamanthagency.github.io/titan-turfworks/'
   }
 ]
+
 export default function Projects() {
   return (
     <section>
