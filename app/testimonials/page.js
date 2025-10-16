@@ -1,6 +1,8 @@
+"use client"
+
 import { motion } from "framer-motion"
 
-export default function Testimonials() {
+export default function Page() {
   const testimonials = [
     {
       name: "Olivia Martinez",
